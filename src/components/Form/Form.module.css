@@ -1,0 +1,102 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.form label {
+    color: var(--gray);
+}
+
+.form input {
+    background-color: var(--dark);
+    color: var(--light);
+    border: 1px solid var(--dark200);
+    border-radius: 4px;
+    width: 500px;
+    height: 45px;
+    margin-bottom: 1rem;
+    padding-inline: 1rem;
+    font-size: 1.2rem;
+}
+
+.form button {
+    background-color: var(--blue);
+    border: none;
+    border-radius: 4px;
+    width: 500px;
+    height: 45px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: .5rem;
+    cursor: pointer;
+}
+
+.modal p {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/* erro ou sucesso */
+
+.success {
+    color: var(--green);
+}
+
+.error {
+    color: var(--red);
+}
+
+.bg_success button {
+    background-color: var(--green);
+    border: none;
+    border-radius: 4px;
+    margin-top: 2rem;
+    width: 500px;
+    height: 45px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bg_error button {
+    background-color: var(--red);
+    border: none;
+    border-radius: 4px;
+    margin-top: 2rem;
+    width: 500px;
+    height: 45px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.errorMsg {
+    color: var(--red);
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (max-width: 844px) {
+
+    .modal p{
+        font-size: 1rem;
+    }
+
+    .form input {
+        width: 355px;
+        height: 45px;
+        margin: auto;
+    }
+
+    .form button {
+        width: 355px;
+        height: 45px;
+        margin: 25px auto;
+    }
+
+    .errorMsg {
+        font-size: .75rem;
+    }
+}

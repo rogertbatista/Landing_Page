@@ -1,0 +1,19 @@
+.footer{
+    background-color: var(--dark);
+    padding-block: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--gray);
+}
+
+.footer span{
+    color: var(--blue);
+}
+
+@media screen and (max-width: 768px) {
+
+    .footer p{
+        font-size: .75rem;
+    }
+}

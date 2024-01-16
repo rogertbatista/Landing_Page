@@ -1,0 +1,35 @@
+import './App.css'
+import Header from './components/Header';
+import Container from './components/Container';
+import Content from './components/Content';
+import Footer from './components/Footer';
+
+import React, { useState } from 'react';
+import Modal from './Modal';
+
+function App() {
+
+  const App = () => {
+    const [modalOpen, setModalOpen] = useState(false);
+
+    const openModal = () => {
+      setModalOpen(true);
+    };
+
+    const closeModal = () => {
+      setModalOpen(false);
+    };
+  }
+
+  return (
+    <>
+      <Header/>
+      <Container>
+      <Content/>
+      </Container>
+      <Footer/>
+    </>
+  )
+}
+
+export default App

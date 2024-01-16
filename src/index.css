@@ -1,0 +1,20 @@
+:root {
+  font-family: "Sora", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --green: #04D361;
+  --dark: #0C0C0C;
+  --dark200: #171717;
+  --gray: #AEAEAE;
+  --light: #F9f9f9;
+  --blue: #899BFF;
+  --red: #FF3E3E;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
